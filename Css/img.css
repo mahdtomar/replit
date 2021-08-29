@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(226, 177, 112);
+}
+
+
+.parent{
+    background-color: cornflowerblue;
+    width: 100%;
+    height: auto;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,1fr);
+    justify-content: space-between;
+    gap: 20px 20px;
+}
+.child{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    
+}
