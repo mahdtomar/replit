@@ -466,3 +466,9 @@ hr {
     margin: 0px auto;
   }
 }
+@media only screen and (max-width: 950px) {
+  .features .box{
+    height: max-content;
+    
+  }
+}
