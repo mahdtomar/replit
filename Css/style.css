@@ -390,7 +390,7 @@ hr {
     row-gap: 30px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(4, 1fr);
-    gap: 20px 20px;
+    gap: 10px 10px;
   }
   .features h2 {
     font-size: 47px;
