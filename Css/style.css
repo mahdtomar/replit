@@ -470,8 +470,7 @@ hr {
     height: auto;
     margin: 0px auto;
   }
-}
-@media only screen and (max-width: 950px) {
+
   .features .box{
     height:auto;
 
@@ -487,5 +486,26 @@ hr {
   }
   .box p {
     margin: 10px;
+  }
+}
+@media only screen and (max-width: 610px) {
+  header h1 {
+    font-size: 47px;
+    font-weight: 500;
+  }
+}@media only screen and (max-width: 575px) {
+  header h1 {
+    font-size: 47px;
+    font-weight: 500;
+  }
+  .features h2 {
+    font-size: 47px;
+  }
+  .Community .content h3 {
+    font-size: 47px;
+  }  .Multiplayer .content h3 {
+    font-size: 47px;
+  }  .Teams .content h3 {
+    font-size: 47px;
   }
 }
