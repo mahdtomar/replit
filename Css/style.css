@@ -46,6 +46,7 @@ video {
   border-radius: 20px;
   border: 5px solid grey;
   box-shadow: 0px 0px 50px 0px rgba(86, 82, 82, 0.5);
+  width: 100%;
   max-width: 1024px;
 }
 /* ending heading */
@@ -55,7 +56,8 @@ video {
   text-align: center;
   margin: 10px auto;
   position: relative;
-  width: 1240px;
+  width: 100%;
+  max-width: 1240px;
   margin-bottom: 30px;
   transition: all 0.3s;
 }
@@ -195,7 +197,8 @@ hr {
 } */
 .Multiplayer {
   text-align: left;
-  width: 1263px;
+  width: 100%;
+  max-width: 1263px;
   margin: 20px auto;
 }
 .Multiplayer img {
@@ -206,7 +209,7 @@ hr {
 .Multiplayer article {
   width: 50%;
   float: left;
-  margin-top: 160px;
+  /* margin-top: 160px; */
   transform: scale(0.8);
 }
 .Multiplayer article .content {
@@ -247,7 +250,8 @@ hr {
 
 .Community {
   text-align: left;
-  width: 1263px;
+  width: 100%;
+  max-width: 1263px;
   margin: 20px auto;
 }
 .Community img {
@@ -299,7 +303,8 @@ hr {
 
 .Teams {
   text-align: left;
-  width: 1263px;
+  width: 100%;
+  max-width: 1263px;
   margin: 20px auto;
 }
 .Teams img {
