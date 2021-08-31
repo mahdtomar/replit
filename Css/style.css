@@ -483,7 +483,8 @@ hr {
     font-size: 47px;
     font-weight: 500;
   }
-}@media only screen and (max-width: 575px) {
+}
+@media only screen and (max-width: 575px) {
   header h1 {
     font-size: 47px;
     font-weight: 500;
@@ -493,9 +494,12 @@ hr {
   }
   .Community .content h3 {
     font-size: 47px;
-  }  .Multiplayer .content h3 {
+  }  
+  .Multiplayer .content h3 {
     font-size: 47px;
-  }  .Teams .content h3 {
+  }  
+  .Teams .content h3 {
     font-size: 47px;
   }
 }
+/*if you see any issue please mail me 'betav330@gmail.com'*/
