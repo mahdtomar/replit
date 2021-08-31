@@ -59,10 +59,9 @@ video {
   margin-bottom: 30px;
   transition: all 0.3s;
 }
-.features h2{
+.features h2 {
   font-size: 67px;
   font-weight: 500;
-
 }
 .boxes {
   width: auto;
@@ -80,42 +79,38 @@ video {
   border-radius: 10px;
   transition: all 0.3s;
 }
-.box:hover{
-  border-color: #73C4FA;
+.box:hover {
+  border-color: #73c4fa;
   background-color: #121827;
   box-shadow: 0px 0px 10px 0px #3485e4;
-  transform: translate(-0px,-5px) ;
+  transform: translate(-0px, -5px);
 }
-.animation{
+.animation {
   width: 100px;
   height: 100px;
   background-color: red;
-  position:absolute;
+  position: absolute;
   top: 1300px;
-
 }
-.animation:hover{
+.animation:hover {
   animation-name: animation;
   animation-iteration-count: infinite;
-  animation-duration:5s ;
-  animation-timing-function:ease-out;
+  animation-duration: 5s;
+  animation-timing-function: ease-out;
 }
 @keyframes animation {
-  0%{
+  0% {
     top: 1300px;
   }
-  50%{
+  50% {
     top: 1000px;
-
   }
-  100%{
+  100% {
     top: 1300px;
-  
   }
-  
 }
 @keyframes hover {
-  0%{
+  0% {
     left: 5px;
     margin: 30px;
     max-width: 250px;
@@ -126,14 +121,14 @@ video {
     background-color: #202330;
     border-radius: 10px;
   }
-  50%{
+  50% {
     transition: 0.3s;
-    border-color: #73C4FA;
+    border-color: #73c4fa;
     background-color: #121827;
     box-shadow: 0px 0px 10px 0px #3485e4;
-    transform: translate(-0px,-5px);
+    transform: translate(-0px, -5px);
   }
-  100%{
+  100% {
     left: 5px;
     margin: 30px;
     max-width: 250px;
@@ -144,8 +139,6 @@ video {
     background-color: #202330;
     border-radius: 10px;
   }
-
-  
 }
 .box-title {
   font-weight: 500;
@@ -160,8 +153,8 @@ video {
   margin: 20px;
 }
 /* ending features */
-hr{
-  width:100%;
+hr {
+  width: 100%;
   opacity: 0;
 }
 /* starting  */
@@ -200,54 +193,51 @@ hr{
   position: absolute;
   top: 90px;
 } */
-.Multiplayer{
+.Multiplayer {
   text-align: left;
   width: 1263px;
-  margin:20px auto;
-  
+  margin: 20px auto;
 }
-.Multiplayer img{
+.Multiplayer img {
   width: 50%;
   float: right;
   transform: scale(0.8);
 }
-.Multiplayer article{
+.Multiplayer article {
   width: 50%;
   float: left;
   margin-top: 160px;
   transform: scale(0.8);
-  
 }
-.Multiplayer article .content{
+.Multiplayer article .content {
   padding-bottom: 214px;
-
 }
 
-.Multiplayer .content span{
+.Multiplayer .content span {
   color: grey;
   font-size: 25px;
   padding: 40px;
   font-weight: 500;
 }
-.Multiplayer .content h3{
+.Multiplayer .content h3 {
   font-size: 67px;
   font-weight: 500;
   text-shadow: 0px 0px 100px rgb(0, 119, 255);
   padding: 40px;
 }
-.Multiplayer .content p{
-  color:#A7A8AD;
+.Multiplayer .content p {
+  color: #a7a8ad;
   padding: 40px;
-  text-align:justify ;
+  text-align: justify;
   font-size: large;
   line-height: 1.5;
 }
-.Multiplayer strong{
+.Multiplayer strong {
   color: white;
   font-weight: 700;
 }
-.Multiplayer a{
-  color: #3485E4;
+.Multiplayer a {
+  color: #3485e4;
   text-decoration: none;
   font-weight: bold;
   padding: 40px;
@@ -255,54 +245,51 @@ hr{
 /* ending multiplayer */
 /* starting Community */
 
-.Community{
+.Community {
   text-align: left;
   width: 1263px;
-  margin:20px auto;
-  
+  margin: 20px auto;
 }
-.Community img{
+.Community img {
   width: 50%;
   float: left;
   transform: scale(0.8);
 }
-.Community article{
+.Community article {
   width: 50%;
   float: right;
   margin-top: 160px;
   transform: scale(0.8);
-  
 }
-.Community article .content{
+.Community article .content {
   padding-bottom: 214px;
-
 }
 
-.Community .content span{
+.Community .content span {
   color: grey;
   font-size: 25px;
   padding: 0px 0;
   font-weight: 500;
 }
-.Community .content h3{
+.Community .content h3 {
   font-size: 67px;
   font-weight: 500;
   text-shadow: 0px 0px 100px rgb(0, 119, 255);
   padding: 40px 0;
 }
-.Community .content p{
-  color:#A7A8AD;
+.Community .content p {
+  color: #a7a8ad;
   padding: 40px 0;
-  text-align:justify ;
+  text-align: justify;
   font-size: large;
   line-height: 1.5;
 }
-.Community strong{
+.Community strong {
   color: white;
   font-weight: 700;
 }
-.Community a{
-  color: #3485E4;
+.Community a {
+  color: #3485e4;
   text-decoration: none;
   font-weight: bold;
   padding: 40px 0;
@@ -310,85 +297,77 @@ hr{
 /* ending Community */
 /* starting Teams */
 
-.Teams{
+.Teams {
   text-align: left;
   width: 1263px;
-  margin:20px auto;
-  
+  margin: 20px auto;
 }
-.Teams img{
+.Teams img {
   width: 50%;
   float: right;
   transform: scale(0.8);
 }
-.Teams article{
+.Teams article {
   width: 50%;
   float: left;
   margin-top: 160px;
   transform: scale(0.8);
-  
 }
-.Teams article .content{
+.Teams article .content {
   padding-bottom: 214px;
-
 }
 
-.Teams .content span{
+.Teams .content span {
   color: grey;
   font-size: 25px;
   padding: 40px;
   font-weight: 500;
 }
-.Teams .content h3{
+.Teams .content h3 {
   font-size: 67px;
   font-weight: 500;
   text-shadow: 0px 0px 100px rgb(0, 119, 255);
   padding: 40px;
 }
-.Teams .content p{
-  color:#A7A8AD;
+.Teams .content p {
+  color: #a7a8ad;
   padding: 40px;
-  text-align:justify ;
+  text-align: justify;
   font-size: large;
   line-height: 1.5;
 }
-.Teams strong{
+.Teams strong {
   color: white;
   font-weight: 700;
 }
-.Teams a{
-  color: #3485E4;
+.Teams a {
+  color: #3485e4;
   text-decoration: none;
   font-weight: bold;
   padding: 40px;
 }
 /* ending Teames */
 
-/* width < 500px */
+/* width < 950px */
 @media only screen and (max-width: 950px) {
-  :root{
-    
-  }
-  body{
+  body {
     width: 100%;
   }
-
 
   .container {
-    width: 100%;
     margin: 0px auto;
   }
-  header h1{
+  header h1 {
     font-size: 57px;
     text-align: center;
   }
-  header p{
+  header p {
     font-size: large;
     text-align: center;
   }
-  video{
+  video {
     max-width: 100%;
-    height: auto; 
+    height: auto;
   }
   .features {
     display: block;
@@ -399,21 +378,21 @@ hr{
     margin-bottom: 30px;
     transition: all 0.3s;
   }
-  .features .boxes{
+  .features .boxes {
     margin: 0px auto;
     width: 100%;
     /* height: 1080px;
     z-index: 999; */
   }
-  .features .boxes{
+  .features .boxes {
     display: grid;
     column-gap: 30px;
     row-gap: 30px;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(4,1fr);
+    grid-template-rows: repeat(4, 1fr);
     gap: 20px 20px;
   }
-  .features h2{
+  .features h2 {
     font-size: 47px;
   }
   .box {
@@ -437,55 +416,52 @@ hr{
     width: 100%;
 
   } */
-  .Multiplayer{
+  .Multiplayer {
     text-align: left;
-    margin:20px auto;
-    
+    margin: 20px auto;
+    width: 100%;
   }
-  .Multiplayer img{
+  .Multiplayer img {
     width: 100%;
     height: auto;
     float: left;
   }
-  .Multiplayer article{
+  .Multiplayer article {
     width: 100%;
     float: left;
-
   }
-  .Multiplayer .content{
+  .Multiplayer .content {
     width: 100%;
   }
-  .Community{
+  .Community {
     text-align: left;
-    margin:20px auto;
-    
+    margin: 20px auto;
+    width: 100%;
   }
-  .Community img{
+  .Community img {
     width: 100%;
     height: auto;
     float: left;
   }
-  .Community article{
+  .Community article {
     width: 100%;
     float: left;
-
-  }  .Teams{
-    text-align: left;
-    margin:20px auto;
-    
   }
-  .Teams img{
+  .Teams {
+    text-align: left;
+    margin: 20px auto;
+    width: 100%;
+  }
+  .Teams img {
     width: 100%;
     height: auto;
     float: left;
   }
-  .Teams article{
+  .Teams article {
     width: 100%;
     float: left;
-
   }
   .container {
-    width: 100%;
     height: auto;
     margin: 0px auto;
   }
