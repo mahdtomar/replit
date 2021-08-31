@@ -100,17 +100,7 @@ video {
   animation-duration: 5s;
   animation-timing-function: ease-out;
 }
-@keyframes animation {
-  0% {
-    top: 1300px;
-  }
-  50% {
-    top: 1000px;
-  }
-  100% {
-    top: 1300px;
-  }
-}
+
 @keyframes hover {
   0% {
     left: 5px;
