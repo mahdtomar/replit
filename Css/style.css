@@ -468,7 +468,7 @@ hr {
 }
 @media only screen and (max-width: 950px) {
   .features .box{
-    height: max-content;
-    
+    height:fit-content;
+
   }
 }
