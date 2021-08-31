@@ -80,6 +80,8 @@ video {
   background-color: #202330;
   border-radius: 10px;
   transition: all 0.3s;
+  cursor: pointer;
+
 }
 .box:hover {
   border-color: #73c4fa;
